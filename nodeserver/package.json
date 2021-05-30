@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "arihant jain",
   "license": "ISC",
   "dependencies": {
+    "knex": "^0.95.6",
     "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
     "socket.io": "^4.0.1"
   }
 }
